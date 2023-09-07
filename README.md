@@ -1,98 +1,98 @@
-# README Strony Addify Evo
+# Addify Evo Website README
 
-Witaj w pliku README dla strony internetowej Addify Evo. Ten dokument zawiera przegląd struktury HTML i funkcjonalności tej strony.
+Welcome to the README for the Addify Evo website. This document provides an overview of the HTML structure and functionality of the website.
 
-## Spis treści
-- [Wstęp](#wstęp)
-- [Struktura Strony](#struktura-strony)
-- [Sekcje](#sekcje)
-  - [Nagłówek](#nagłówek)
-  - [Sekcja "Strona Główna"](#sekcja-strona-główna)
-  - [Sekcja "Dodaj Produkt"](#sekcja-dodaj-produkt)
-  - [Sekcja "Informacje o Produkcie"](#sekcja-informacje-o-produkcie)
-  - [Sekcja "Wsparcie Techniczne"](#sekcja-wsparcie-techniczne)
-  - [Sekcja "Kontakt Ogólny"](#sekcja-kontakt-ogólny)
-- [Stopka](#stopka)
-- [Skrypty](#skrypty)
-- [Informacje o Ciasteczkach](#informacje-o-ciasteczkach)
-- [Autorzy Grafik](#autorzy-grafik)
-- [Instrukcja Użytkowania](#instrukcja-użytkowania)
-- [Autorzy](#autorzy)
-- [Licencja](#licencja)
+## Table of Contents
+- [Introduction](#introduction)
+- [Website Structure](#website-structure)
+- [Sections](#sections)
+  - [Header](#header)
+  - [Home Section](#home-section)
+  - [Add Product Section](#add-product-section)
+  - [Product Information Section](#product-information-section)
+  - [Technical Support Section](#technical-support-section)
+  - [General Contact Section](#general-contact-section)
+- [Footer](#footer)
+- [Scripts](#scripts)
+- [Cookie Information](#cookie-information)
+- [Image Credits](#image-credits)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-## Wstęp
+## Introduction
 
-Strona internetowa Addify Evo została zaprojektowana w celu pomocy użytkownikom w śledzeniu i zarządzaniu swoją listą zakupów. Oferuje funkcje takie jak dodawanie produktów, zapisywanie ich szczegółów oraz udzielanie wsparcia technicznego. Poniżej znajdziesz szczegółowe informacje na temat struktury i funkcjonalności strony.
+The Addify Evo website is designed to help users track and manage their shopping lists. It offers features like adding products, saving their details, and providing technical support. Below, you'll find details about the website's structure and functionality.
 
-## Struktura Strony
+## Website Structure
 
-Strona została zbudowana przy użyciu HTML, CSS i JavaScript. Składa się z następujących sekcji:
+The website is built using HTML, CSS, and JavaScript. It consists of the following sections:
 
-## Sekcje
+## Sections
 
-### Nagłówek
+### Header
 
-Sekcja nagłówka zawiera tytuł strony oraz menu nawigacyjne. Użytkownicy mogą klikać w pozycje menu, aby przechodzić do różnych sekcji strony.
+The header section contains the website's title and navigation menu. Users can click on menu items to navigate to different sections of the website.
 
-### Sekcja "Strona Główna"
+### Home Section
 
-Ta sekcja witamy użytkowników na stronie Addify Evo i przedstawia krótki opis misji i celów strony.
+This section welcomes users to Addify Evo and provides a brief overview of its mission and purpose.
 
-### Sekcja "Dodaj Produkt"
+### Add Product Section
 
-W tej sekcji użytkownicy mogą dodawać produkty do swojej listy zakupów. Muszą podać szczegóły produktu, takie jak nazwa, cena, link, ilość oraz dodatkowe informacje.
+In this section, users can add products to their shopping list. They need to provide product details such as name, price, link, quantity, and additional information.
 
-### Sekcja "Informacje o Produkcie"
+### Product Information Section
 
-Ta sekcja wyświetla listę produktów, które użytkownicy dodali. Oblicza również i wyświetla łączną cenę dodanych produktów. Użytkownicy mogą pobrać listę jako plik.
+This section displays the list of products that users have added. It also calculates and displays the total price of the added products. Users can download the list as a file.
 
-### Sekcja "Wsparcie Techniczne"
+### Technical Support Section
 
-Użytkownicy mogą składać wnioski o wsparcie techniczne w tej sekcji. Muszą podać swoje imię, nazwisko, adres e-mail oraz opis problemu, z którym się spotykają.
+Users can submit technical support requests in this section. They need to provide their first name, last name, email address, and a description of the issue they are facing.
 
-### Sekcja "Kontakt Ogólny"
+### General Contact Section
 
-Ta sekcja umożliwia użytkownikom kontakt z administratorami strony. Użytkownicy muszą podać swoje imię, nazwisko, adres e-mail oraz opis swojej wiadomości.
+This section allows users to contact the website's administrators. Users need to provide their first name, last name, email address, and a description of their message.
 
-## Stopka
+## Footer
 
-Stopka strony wyświetla informacje o prawach autorskich oraz link do domeny strony internetowej.
+The website's footer displays copyright information and a link to the website's domain.
 
-## Skrypty
+## Scripts
 
-Strona wykorzystuje wiele plików JavaScript do dodania funkcjonalności, w tym:
-- Przełączanie menu w tryb mobilny
-- Płynne animacje przewijania
-- Zarządzanie koszykiem zakupowym i produktami
-- Obsługa formularzy dla wniosków o wsparcie i kontaktu
-- Funkcja pobierania plików
+The website uses several JavaScript files to add functionality, including:
+- Mobile menu toggling
+- Smooth scrolling animations
+- Shopping cart and product management
+- Form handling for support and contact requests
+- File download functionality
 
-## Informacje o Ciasteczkach
+## Cookie Information
 
-Korzystamy z skryptu ciasteczkowego dostępnego na [skrypt-cookies.pl](https://skrypt-cookies.pl/ciasteczka-darmowy-skrypt-na-strone-www), aby zarządzać informacjami o ciasteczkach na tej stronie internetowej.
+We use a cookie script from [skrypt-cookies.pl](https://skrypt-cookies.pl/ciasteczka-darmowy-skrypt-na-strone-www) to manage cookie information on this website.
 
-## Autorzy Grafik
+## Image Credits
 
-Wykorzystujemy zdjęcia dostępne na [Unsplash](https://unsplash.com/?fbclid=IwAR1i8zFyITcJREJ18EcTsUMjek5cI8M-49m_CP93-751ReHcyL3dFJEVUfU) do treści wizualnych na naszej stronie.
+We use images from [Unsplash](https://unsplash.com/?fbclid=IwAR1i8zFyITcJREJ18EcTsUMjek5cI8M-49m_CP93-751ReHcyL3dFJEVUfU) for visual content on our website.
 
-## Instrukcja Użytkowania
+## Usage
 
-Aby korzystać ze strony Addify Evo, postępuj zgodnie z poniższymi krokami:
-1. Otwórz stronę w przeglądarce internetowej.
-2. Nawiguj między sekcjami za pomocą menu w nagłówku.
-3. Dodawaj produkty w sekcji "Dodaj Produkt".
-4. Przeglądaj i zarządzaj listą produktów w sekcji "Lista Produktów".
-5. Składaj wnioski o wsparcie techniczne lub kontaktuj się z administratorami, jeśli jest taka potrzeba.
-6. Eksploruj inne funkcje i możliwości strony internetowej.
+To use the Addify Evo website, follow these steps:
+1. Open the website in a web browser.
+2. Navigate through the sections using the menu in the header.
+3. Add products in the "Add Your Product" section.
+4. View and manage your product list in the "List Product" section.
+5. Request technical support or contact the administrators as needed.
+6. Explore other features and functionalities of the website.
 
-## Autorzy
+## Credits
 
-Stronę internetową Addify Evo stworzył [glazlukasz](https://addify.glazlukasz.pl) w 2023 roku. Mogą być używane zewnętrzne biblioteki i czcionki do stylizacji i funkcjonalności.
+The Addify Evo website was created by [glazlukasz](https://addify.glazlukasz.pl) in 2023. It may use external libraries and fonts for styling and functionality.
 
-## Licencja
+## License
 
-Ta strona internetowa oraz związany z nią kod są własnością intelektualną właściciela strony internetowej, a wszelkie prawa są zastrzeżone. Nieuprawnione korzystanie lub kopiowanie jest zabronione.
+This website and its associated code are the intellectual property of the website owner, and all rights are reserved. Unauthorized use or reproduction is prohibited.
 
-W celu uzyskania dodatkowych informacji lub zgłoszenia problemów związanych z obsługą, prosimy skorzystać z informacji kontaktowych podanych na stronie.
+For any inquiries or support requests, please use the contact information provided on the website.
 
-Dziękujemy za korzystanie z Addify Evo!
+Thank you for using Addify Evo!

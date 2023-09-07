@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Addify Evo</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Section Header -->
+    <header>
+      <div class="container">
+        <h2 class="animation-header"><span>Addify</span>Evo</h2>
+        <nav>
+          <ul>
+            <li id="clickHome">
+              <a href="#Home" class="section-home">Home</a>
+            </li>
+            <li id="clickProduct">
+              <a href="#Add-Product" class="section-product">Add Product</a>
+            </li>
+            <li id="clickInfo">
+              <a href="#" class="section-info">Prod. Info</a>
+            </li>
+            <li id="clickSupport">
+              <a href="#Support" class="section-support">Support</a>
+            </li>
+            <li id="clickContact">
+              <a href="#Contact" class="section-contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
+      </div>
+    </header>
+    <!-- End Section Header -->
+    <main>
+      <!-- Section Etap One -->
+      <section class="textbox-main" id="section-home">
+        <h1>Welcome To Addify EVO!</h1>
+      </section>
+      <section class="textbox-first">
+        <p class="main-text">Our Mission:</p>
+        <p>Support you while shopping</p>
+        <p class="main-text">Your Tool:</p>
+        <p>Addify EVO - Your shopping partner</p>
+        <p class="main-text">You can save products:</p>
+        <p>
+          Track their value and add links so you can easily find them Later.
+        </p>
+        <p class="main-text">Thanks to us:</p>
+        <p>Shopping will become easier than ever before.</p>
+      </section>
+      <section class="image-sec">
+        <img src="./img/people-work-small.jpg" alt="people-work" />
+      </section>
+      <!-- End Section One -->
+      <!-- Etap Section Two -->
+      <section class="information-add" id="section-product">
+        <h2>Add Your Product</h2>
+        <div class="AddItem">
+          <form id="addItemForm">
+            <div class="nameProduct input-group">
+              <p>Product Name *</p>
+              <input
+                type="text"
+                class="item-input"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div class="costProduct input-group itemList">
+              <p>Product Price *</p>
+              <input
+                type="number"
+                class="item-input"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <h3>Other informations</h3>
+            <div class="linkProduct input-group totalPrice">
+              <p>Product Link</p>
+              <input type="text" class="item-input" autocomplete="off" />
+            </div>
+            <div class="quantityProduct input-group">
+              <p>Product Quantity</p>
+              <input type="number" class="item-input" autocomplete="off" />
+            </div>
+            <div class="textareaProduct input-group">
+              <p>Additional information</p>
+              <textarea name="" id="" cols="45" rows="8"></textarea>
+            </div>
+            <div class="info-buttons">
+              <button type="submit" class="info-btn selected">
+                Add Product
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- End Etap Section Two -->
+      <!-- Etap Section Three -->
+      <section class="information-check" id="section-info">
+        <h2>List Product:</h2>
+        <div id="itemList" class="listItem"></div>
+        <div class="position-correct">
+          <p id="totalPrice">Sum: 0</p>
+          <button
+            type="submit"
+            class="info-btn selected"
+            id="downloadTextButton"
+          >
+            Dowload File
+          </button>
+        </div>
+      </section>
+      <!-- End Etap Section Three -->
+      <!-- Etap Section Four -->
+      <section class="information-support" id="section-support">
+        <h2>Addify Technical Support</h2>
+
+        <form
+          action="support.php"
+          method="post"
+          accept-charset="UTF-8"
+          class="support-form"
+        >
+          <div class="support-box">
+            <label for="first_name">First Name: *</label>
+            <input
+              type="text"
+              id="first_name"
+              name="first_name"
+              class="name"
+              required
+            />
+          </div>
+          <div class="support-box">
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" class="name" />
+          </div>
+          <div class="support-box">
+            <label for="email">E-mail: *</label>
+            <input type="text" id="email" name="email" class="email" required />
+          </div>
+          <div class="support-box">
+            <label for="message">What error do you want to give us? *</label>
+            <textarea
+              id="message"
+              name="message"
+              class="msg"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" name="submit">Send!</button>
+        </form>
+
+        <p class="msg-status"></p>
+      </section>
+      <!-- End Etap Section Four -->
+
+      <!-- Etap Section Five -->
+      <section class="information-contact" id="section-contact">
+        <h2>General Contact glazlukasz.pl</h2>
+
+        <form
+          action="mail.php"
+          method="post"
+          accept-charset="UTF-8"
+          class="contact-form"
+        >
+          <div class="contact-box">
+            <label for="first_name">First Name: *</label>
+            <input
+              type="text"
+              id="first_name"
+              name="first_name"
+              class="name"
+              required
+            />
+          </div>
+          <div class="contact-box">
+            <label for="last_name">Last Name: </label>
+            <input type="text" id="last_name" name="last_name" class="name" />
+          </div>
+          <div class="contact-box">
+            <label for="email">E-mail: *</label>
+            <input type="text" id="email" name="email" class="email" required />
+          </div>
+          <div class="contact-box">
+            <label for="message">Description: *</label>
+            <textarea
+              id="message"
+              name="message"
+              class="msg"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" name="submit">Send!</button>
+        </form>
+
+        <p class="msg-status"></p>
+      </section>
+      <!-- End Etap Section Five -->
+    </main>
+    <footer>© 2023 All Rights Reserved. By addify.glazlukasz.pl</footer>
+
+    <script src="/js/menu-mobile.js"></script>
+    <script src="/js/animate-scroll.js"></script>
+    <script src="/js/shopingCart/admin-ui.js"></script>
+    <script src="/js/shopingCart/basket.js"></script>
+    <script src="/js/form.js"></script>
+    <script src="/js/dowload-file/dowload.js"></script>
+    <script src="/js/cookies/inf-cookies.js"></script>
+
+    <script src="/js/cookies/add-product/add-product.js"></script>
+    <script type="module" src="add-product.js"></script>
+  </body>
+</html>

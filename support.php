@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $last_name = htmlspecialchars($_POST["last_name"]);
     $from = htmlspecialchars($_POST["email"]);
     $subject = "Message from Website: addify.glazlukasz.pl [Addify Technical Support]";
-    $to = "kontakt@glazlukasz.pl";
+    $to = "addify.support@glazlukasz.pl";
     $message = htmlspecialchars($_POST["message"]);
 
     // Zakoduj treść i nagłówki
